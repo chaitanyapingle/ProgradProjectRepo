@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 10px;
+    background-color: #edeef0;
+}
+
+.logo-text {
+    font-size: 3em;
+    font-weight: 700;
+    color: #f05136;
+}
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+#Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 550px;
+    width: 100%;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 0 20px;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.link-button {
+    color: black;
+    font-family: "sans serif";
+    font-weight: 5;
+    font-size: 19px;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    border: solid 2px;
+    border-color: white;
+    border-radius: 80px;
+    padding: 5px 40px;
+    background-color: white;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.link-button:hover {
+    background-color: lightyellow;
+}
+
+#Bitmojis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+footer {
+    display: flex;
+    color: white;
+    align-items: center;
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#MIDDLE p {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+#MIDDLE {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+#MIDDLE article * {
+    margin: 20px;
+}
+
+#MIDDLE p h3 {
+    font-weight: 800;
+}
+
+#Images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#box {
+    margin: 100px;
+}
+
+S {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
