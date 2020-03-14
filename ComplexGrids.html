@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComplexGrids</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1em;
+            grid-auto-rows: minmax(200px, auto)
+        }
+
+        .grid-container>div {
+            padding: 1em;
+            background-color: grey;
+            grid-gap: 1em;
+        }
+
+        #box1 {
+            background-color: red;
+        }
+
+        #box2 {
+            background-color: purple;
+            grid-column: 2/4;
+
+        }
+
+        #box3 {
+            grid-column: 3/4;
+            grid-row: 2/4;
+            background-color: blue;
+
+        }
+
+        #box4,
+        #box5 {
+            background-color: red;
+
+        }
+
+        #box5 {}
+
+        #box6 {
+            grid-column: 1/3;
+            grid-row: 2/3;
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div id="box1">FACE is a skill development company that helps students across the country</div>
+        <div id="box2">FACE is a skill development company that helps students across the country</div>
+        <div id="box3">FACE is a skill development company that helps students across the country</div>
+        <div id="box4">FACE is a skill development company that helps students across the country</div>
+        <div id="box5">FACE is a skill development company that helps students across the country</div>
+        <div id="box6">FACE is a skill development company that helps students across the country</div>
+    </div>
+</body>
+
+</html>
