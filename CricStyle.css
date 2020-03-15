@@ -1,0 +1,47 @@
+#Logo {
+    margin-left: 1000px;
+    margin-top: 40px;
+}
+
+#BGIMAGE {
+    margin-left: 500px;
+    margin-top: 60px;
+}
+
+table {
+    width: 1000px;
+}
+
+th {
+    text-align: left;
+}
+
+table,
+th,
+td {
+    border: 0.5px solid lightgray;
+    border-collapse: collapse;
+}
+
+.content-table {
+    position: relative;
+    top: -740px;
+}
+
+h1,
+h3 {
+    position: relative;
+    left: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 60;
+    font-style: inherit;
+}
+
+h5 {
+    position: relative;
+    margin-top: 0;
+    margin-top: 50px;
+}
