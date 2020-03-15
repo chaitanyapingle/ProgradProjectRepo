@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 75%;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+
+.div1 {
+    background-color: wheat;
+    border-radius: 20px;
+
+}
+
+.div2 {
+    background-color: wheat;
+    border-radius: 20px;
+}
+
+.div3 {
+    background-color: wheat;
+    border-radius: 20px;
+}
+
+.div4 {
+    background-color: wheat;
+    border-radius: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10em;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-column: height 400px;
+    border-radius: 3em;
+}
+
+#Spiderman {
+    top: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+
+#WW {
+    top: -40px;
+    margin-left: 30px;
+    position: relative;
+}
+
+#CA {
+    top: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+
+#GW {
+    top: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+
+p1 {
+    font-size: 70px;
+    position: relative;
+    margin-top: 200px;
+    margin-left: -5px;
+}
+
+p {
+    position: relative;
+    top: 50px;
+    left: 65px;
+}
+
+p2 {
+    font-size: 70px;
+    position: relative;
+    left: 210px;
+    top: -15px;
+}
+
+p3 {
+    position: relative;
+    top: -30px;
+    left: 65px;
+}
+
+p4 {
+    font-size: 70px;
+    position: relative;
+    left: 60px;
+    top: -35px;
+}
